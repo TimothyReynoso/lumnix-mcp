@@ -1,0 +1,39 @@
+{
+  "name": "lumnix",
+  "version": "0.2.0",
+  "description": "AI-powered e-commerce research tools via MCP — Amazon, Alibaba, AliExpress product research, supplier vetting, and profit calculations in your AI assistant",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "echo '\\n✅ Lumnix installed!\\n\\nAdd to your MCP client config:\\n\\n{\\n  \"mcpServers\": {\\n    \"lumnix\": {\\n      \"url\": \"https://lumnix.dev/api/mcp\",\\n      \"headers\": { \"Authorization\": \"Bearer YOUR_API_KEY\" }\\n    }\\n  }\\n}\\n\\nGet your free API key at https://lumnix.dev\\n'"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "amazon",
+    "alibaba",
+    "aliexpress",
+    "fba",
+    "product-research",
+    "ecommerce",
+    "keepa",
+    "supplier-vetting",
+    "profit-calculator",
+    "bsr",
+    "opportunity-score",
+    "amazon-seller",
+    "sourcing",
+    "claude",
+    "cursor",
+    "windsurf"
+  ],
+  "author": "Molt Studios",
+  "license": "MIT",
+  "homepage": "https://lumnix.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moltstudios/lumnix-mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/moltstudios/lumnix-mcp/issues"
+  }
+}
