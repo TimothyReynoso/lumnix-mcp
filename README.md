@@ -51,6 +51,26 @@ Sign up at [lumnix.dev](https://lumnix.dev) — no credit card required. Get you
 {
   "mcpServers": {
     "lumnix": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://lumnix.dev/api/mcp",
+        "--header",
+        "Authorization: Bearer YOUR_API_KEY"
+      ]
+    }
+  }
+}
+```
+
+> ⚠️ Claude Desktop doesn't support remote MCP URLs natively. The `mcp-remote` bridge (auto-installed by npx) makes it work. Requires Node.js installed.
+
+**Cursor** — Settings → MCP → Add new global MCP server:
+
+```json
+{
+  "mcpServers": {
+    "lumnix": {
       "url": "https://lumnix.dev/api/mcp",
       "headers": {
         "Authorization": "Bearer YOUR_API_KEY"
@@ -60,9 +80,7 @@ Sign up at [lumnix.dev](https://lumnix.dev) — no credit card required. Get you
 }
 ```
 
-**Cursor** — Settings → MCP → Add new global MCP server → paste the same config.
-
-**Windsurf / Cline / any MCP client** — same pattern. URL + Bearer token.
+**Windsurf / Cline / any MCP client** — same pattern as Cursor. URL + Bearer token header.
 
 ### 3. Start researching
 
