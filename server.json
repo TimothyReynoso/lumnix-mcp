@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.moltstudios/lumnix",
+  "description": "E-commerce research via MCP. Amazon, Alibaba & AliExpress product search and FBA margins.",
+  "title": "Lumnix",
+  "websiteUrl": "https://lumnix.dev",
+  "repository": {
+    "url": "https://github.com/moltstudios/lumnix-mcp",
+    "source": "github"
+  },
+  "version": "0.2.2",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "lumnix",
+      "version": "0.2.2",
+      "transport": {
+        "type": "streamable-http",
+        "url": "https://lumnix.dev/api/mcp"
+      }
+    }
+  ]
+}
