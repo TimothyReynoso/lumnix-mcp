@@ -1,6 +1,6 @@
 {
   "name": "lumnix",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "AI-powered e-commerce research tools via MCP — Amazon, Alibaba, AliExpress product research, supplier vetting, and profit calculations in your AI assistant",
   "main": "index.js",
   "scripts": {
