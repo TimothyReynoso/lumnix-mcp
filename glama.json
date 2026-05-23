@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "lumnix": {
+      "name": "Lumnix",
+      "description": "AI-powered e-commerce research tools via MCP. Search Amazon, Alibaba & AliExpress for winning products, vet suppliers, and calculate margins — all in your AI assistant. 19 tools, 3 pricing tiers.",
+      "url": "https://lumnix.dev/api/mcp",
+      "homepage": "https://lumnix.dev",
+      "repository": "https://github.com/moltstudios/lumnix-mcp",
+      "categories": ["e-commerce", "product-research", "amazon", "fba", "data-analysis"],
+      "tools": [
+        {"name": "search_amazon_products", "description": "Search Amazon for products by keyword"},
+        {"name": "get_amazon_product_details", "description": "Get detailed product information from Amazon"},
+        {"name": "get_amazon_bsr", "description": "Get Best Sellers Rank data"},
+        {"name": "get_amazon_reviews", "description": "Get product reviews from Amazon"},
+        {"name": "get_amazon_keepa_data", "description": "Get Keepa price history and sales data"},
+        {"name": "search_alibaba_products", "description": "Search Alibaba for suppliers and products"},
+        {"name": "get_alibaba_product_details", "description": "Get detailed supplier information from Alibaba"},
+        {"name": "search_aliexpress_products", "description": "Search AliExpress for products"},
+        {"name": "calculate_profit", "description": "Calculate FBA profit margins including fees"},
+        {"name": "get_alibaba_supplier_analysis", "description": "Analyze supplier reliability and ratings"},
+        {"name": "get_amazon_keyword_rank", "description": "Check keyword ranking positions"},
+        {"name": "get_amazon_niche_analysis", "description": "Analyze a niche's competition and opportunity"},
+        {"name": "get_amazon_product_restrictions", "description": "Check product category restrictions"},
+        {"name": "get_alibaba_rfq", "description": "Create and manage Request for Quotation"},
+        {"name": "get_aliexpress_product_details", "description": "Get detailed product information from AliExpress"},
+        {"name": "get_aliexpress_store_info", "description": "Get store information from AliExpress"},
+        {"name": "get_amazon_fba_calculator", "description": "Calculate FBA fees and profitability"},
+        {"name": "get_amazon_competitor_analysis", "description": "Analyze competitor listings and strategies"},
+        {"name": "get_amazon_demand_score", "description": "Get demand scoring for products"}
+      ],
+      "authentication": {
+        "type": "apiKey",
+        "description": "API key from lumnix.dev",
+        "headerName": "Authorization",
+        "headerPrefix": "Bearer "
+      }
+    }
+  }
+}
