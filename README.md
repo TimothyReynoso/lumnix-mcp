@@ -6,11 +6,16 @@
 
 Stop paying for three different SaaS dashboards. Ask your AI to find winning products, vet suppliers, and calculate margins — all in one conversation.
 
+[![npm version](https://img.shields.io/npm/v/lumnix.svg)](https://www.npmjs.com/package/lumnix)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP Protocol](https://img.shields.io/badge/MCP-2025--03--26-blue)](https://modelcontextprotocol.io)
 [![Keepa Powered](https://img.shields.io/badge/Keepa-Powered-green)](https://keepa.com)
 
-[Get API Key](https://lumnix.dev) · [Documentation](#-tools-reference) · [MCP Directories](#-find-us-on)
+```bash
+npm install lumnix
+```
+
+[Get API Key](https://lumnix.dev) · [Documentation](#-tools-reference) · [npm Package](https://www.npmjs.com/package/lumnix)
 
 </div>
 
@@ -88,7 +93,7 @@ Restart your AI client. Then just talk naturally:
 
 > *"Search Amazon for portable blenders with high sales and low reviews"*
 
-That's it. No npm install. No Docker. No config files to debug.
+That's it. No Docker. No config files to debug.
 
 ---
 
@@ -228,7 +233,7 @@ Lumnix is listed on all major MCP directories:
 - [**Smithery.ai**](https://smithery.ai) — Search "lumnix"
 - [**MCP Servers**](https://mcpservers.org) — Search "lumnix"
 - [**Claude MCP Directory**](https://docs.anthropic.com/en/docs/agents-and-tools/mcp) — Coming soon
-- [**npm**](https://www.npmjs.com/package/lumnix) — `npm info lumnix`
+- [**npm**](https://www.npmjs.com/package/lumnix) — `npm install lumnix` · `npm info lumnix`
 
 ---
 
